@@ -1,5 +1,3 @@
-function nomes(nome1, nome2){
-    const nome = ("Marvin"+" e "+"Cachalote");
-    console.log(nome);
+function nomes (nome1, nome2){
+    return (nome1 + " e " + nome2);
 }
-

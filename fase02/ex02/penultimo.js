@@ -1,4 +1,6 @@
-function penultimo (palavra){
-    return palavra.substring(9,8)
+function penultimo(palavra){ 
+    const palavras = palavra
+    return palavra.substring(8,9)
 }
+
 

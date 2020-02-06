@@ -1,9 +1,14 @@
-function VogalOuConsoante(letra){
+function vogalOuConsoante(e){
     
-if(letra==='a'|| letra==='e' || letra==='i' || letra==='o' || letra==='u'||letra==='A'|| letra==='E' || letra==='I' || letra==='O' || letra==='U'){
-     return ("vogal")
- } else {
-     return ("consoante")
- }
- }
- 
+    var e = e.toLowerCase();
+
+    if (e=='a' || e=='e' || e=='i' || e=='o' || e=='u'){
+
+        return "Vogal";
+        
+        
+    } else {
+        return "Consoante" ;
+    }
+}
+

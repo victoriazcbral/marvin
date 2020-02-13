@@ -1,12 +1,17 @@
 function por42(num1, num2){
     
-	var a = null
-	while (a <= num2)
-	if (a % 42 === 0)
-	{Math.random()* 100
-	} else {
-	    return false;
-	    console.log(" Não encontrado ")
+    var result = null;
+    var contador = 0;
+	while (num1 <= num2){
+	if (num1 % 42 === 0){
+	    contador = contador + 1;
+	    
 	}
+	if (contador === 2){
+	    return(num1);
+	}
+	  num1++  
+	}if (!result)
+	console.log("não encontrado")
+	return false
 }
-

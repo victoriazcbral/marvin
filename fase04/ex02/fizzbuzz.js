@@ -13,10 +13,10 @@ function fizzbuzz(num1, num2){
          if (a % 3 === 0){
         console.log (a + " Fizz ")
         a++
-}
-
-console.log(a)
-a++
+             
+    }
+    console.log(a)
+    a++
 
 }
 }

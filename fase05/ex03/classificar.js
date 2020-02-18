@@ -1,5 +1,5 @@
 function classificar(array){
-    return (array.reverse())
+    return (array.sort())
 }
 
 

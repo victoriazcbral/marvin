@@ -1,5 +1,4 @@
-function meuNome(palavra){
-    const palavras = palavra
-    return palavra.substring(0,1).toUpperCase().concat(palavra.substring(1));
-  
+function meuNome(obj){
+    return obj.nome.substring(0,1).toUpperCase().concat(obj.nome.substring(1));
 }
+
